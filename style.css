@@ -2,6 +2,11 @@
 
 body {
     color: #2b2a37;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    margin: 0px;
 }
 h1 {
     font-family: 'Oswald', sans-serif;
@@ -40,6 +45,7 @@ button {
     align-items: center;
     color: white;
     font-size: 20px;
+    display: inline-block;
 }
 button:hover {
     background-color: #3ed35a;
@@ -58,8 +64,10 @@ button:hover {
     /* Safari */
     transition-duration: 0.3s;
     width: 300px;
-    height: 200px;
     display: inline-block;
+}
+.quote-big {
+    height: 300px;
 }
 .quote:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
@@ -75,7 +83,7 @@ button:hover {
 .em {
     color: white;
     margin: auto;
-    width: 74.45183944%;
+    width: 74.027843475%;
     background-color: #2b2a37;
     padding: 60px 13%;
     display: grid;
@@ -88,4 +96,23 @@ button:hover {
 }
 .bold {
     color:#3ed35a;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 10px;
+}
+.download-section {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin: 1px;
+}
+.download-title {
+    padding: 1px 50px;
 }

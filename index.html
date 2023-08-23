@@ -9,24 +9,25 @@
             <p>Comming Soon for Windows, Mac, and Linux</p>
             <br>
             <br>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLScw_Je6Gx75BdoJxxqqgCJI7UF5wslhztG9TvW7EeL0Do_4IA/viewform?usp=sf_link"><button>Suggest Ideas</button></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScw_Je6Gx75BdoJxxqqgCJI7UF5wslhztG9TvW7EeL0Do_4IA/viewform?usp=sf_link"><button>Suggest Ideas</button></a><a href="download.html"><button>Download</button></a>
         </div>
         <div class="reg">
             <div class="quote">
-                <h3>"This is vile but hilarious at the same time"</h3>
+                <h3>“This is vile but hilarious at the same time”</h3>
                 <p>Thandi M.</p>
             </div>
             <div class="quote">
-                <h3>"Absolutely ridiculous... I love it"</h3>
-                <p>Mrs. Baker</p>
+                <h3>“So mesmerizing that I forgot to do my edpuzzles”</h3>
+                <p>[insert name here]</p>
             </div>
             <div class="quote">
-                <h3>"Email this to me when it's done. I can't wait to play"</h3>
+                <h3>“Email this to me when it's done. I can't wait to play”</h3>
                 <p>Mr. Clevenger</p>
             </div>
             <div class="quote">
-                <h3>"It's a clev-er game" <span class="ext">text.to.center.card.vertically</span></h3>
-                <p>Danylo F.</p>
+                <h3>“Literally <em>Goat Simulator</em> <span >and <em>GTA5</em> combined”</span></h3>
+                
+                <p>i frogor</p>
             </div>
         </div>
         <br>
@@ -40,7 +41,10 @@
                 <p style="display: inline-block;">Advanced Unity Simulation technology enables an accurate simulation of Mr. Clevenger in real time. The player can play as Mr. Clevenger using a series of complex motions using state-of-the-art motion tracking technology, made available by Adobe Mixamo. Furthermore, Unity Navmesh calculations allow for more realistic NPCs, which are able to walk, talk, and interact with their environment.</p>
             </div>
             <br>
-            <img src="img1.png" style="max-width: 100%; float: inline-end; border-radius: 4px;">
+            <!-- <img src="img1.png" style="max-width: 100%; float: inline-end; border-radius: 4px;"> -->
+            <video id="autoplayVideo" style="max-width: 100%; float: inline-end; border-radius: 4px;" loop="true">
+                <source src="mocap.mp4" type="video/mp4">
+            </video>
             <br>
         </div>
         <br>
@@ -48,5 +52,13 @@
         <br>
         <br>
         <br>
+        <script>
+            const video = document.getElementById('autoplayVideo');
+            video.muted = true; // Mute the video to improve chances of autoplay
+            
+            video.addEventListener('canplay', () => {
+                video.play();
+            });
+            </script>
     </body>
 </html>
