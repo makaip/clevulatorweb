@@ -116,3 +116,27 @@ main {
 .download-title {
     padding: 1px 50px;
 }
+.os {
+    font-weight: bold;
+}
+.emos {
+    color: #3ed35a;
+    font-weight: bold;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 2px 5px;
+    font-size: 16px;
+    color: #2b2a37;
+}
+pre {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 10px;
+    overflow-x: auto;
+    font-size: 16px;
+    color: #2b2a37;
+}
